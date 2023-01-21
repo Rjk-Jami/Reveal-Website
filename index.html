@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a6548d2117.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary container">
+                <div class="container-fluid">
+                    <h1 class="fw-bold display-4 text-primary">Reve<span class="text-secondary">al</span></h1>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Services
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link ">Login</a>
+                            </li>
+                        </ul>
+                        <!-- <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form> -->
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- banner -->
+        <section>
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="banner-img-1 d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h1 class="display-3 fw-bold text-primary">Making <span
+                                        class="text-secondary text-decoration-underline">Your Ideas</span><br>Happen!
+                                </h1>
+                                <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                    soluta, illum quam dolores iure repellendus.</p>
+                                <button class="btn btn-primary ">Get Started</button>
+                                <button class="btn btn-secondary">Our Project</button>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner-img-2 d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h1 class="display-3 fw-bold text-primary">Making <span
+                                        class="text-secondary text-decoration-underline">Your Ideas</span><br>Happen!
+                                </h1>
+                                <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                    soluta, illum quam dolores iure repellendus.</p>
+                                <button class="btn btn-primary ">Get Started</button>
+                                <button class="btn btn-secondary">Our Project</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="banner-img-3 d-flex justify-content-center align-items-center">
+                            <div class="text-center">
+                                <h1 class="display-3 fw-bold text-primary">Making <span
+                                        class="text-secondary text-decoration-underline">Your Ideas</span><br>Happen!
+                                </h1>
+                                <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui
+                                    soluta, illum quam dolores iure repellendus.</p>
+                                <button class="btn btn-primary ">Get Started</button>
+                                <button class="btn btn-secondary">Our Project</button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+    </header>
+
+    <main>
+        <section class=" container my-5 py-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img class="w-100 img-fluid" src="image/about-img.jpg" alt="">
+                </div>
+                <div class="col-md-6 ">
+                    <h1 class="text-primary fw-bold">Who are you</h1>
+                    <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut tempore expedita
+                        laboriosam cum itaque architecto.</p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Libero dolore dolorum placeat molestias!</li>
+                        <li>Sint maiores aut praesentium tenetur?</li>
+                        <li>Eum exercitationem repellendus sunt natus.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- service section -->
+        <section class="container">
+            <h1 class="fw-bold text-primary">Services</h1>
+            <p class="text-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto consequatur
+                inventore eius, quidem nihil ipsam recusandae optio adipisci, accusamus repellat sequi rem atque totam
+                omnis nam! Blanditiis nobis vel culpa a! Repellendus perferendis dolor odit ut molestiae earum
+                repudiandae sequi consectetur, sit sapiente, similique veniam autem, est quam ullam.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center justify-content-center shadow-lg p-3 my-3">
+
+                        <i class="fa-solid fa-brain fa-4x text-secondary"></i>
+                        <div class="ms-3">
+                            <h3 class="text-secondary">UI/UX Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magni voluptatibus!
+                                Possimus numquam, recusandae explicabo omnis laudantium itaque corrupti expedita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center justify-content-center shadow-lg p-3 my-3">
+
+                        <i class="fa-solid fa-swatchbook fa-4x text-secondary"></i>
+                        <div class="ms-3">
+                            <h3 class="text-secondary">IT Infrastructure</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magni voluptatibus!
+                                Possimus numquam, recusandae explicabo omnis laudantium itaque corrupti expedita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center justify-content-center shadow-lg p-3 my-3">
+
+                        <i class="fa-solid fa-microchip fa-4x text-secondary"></i>
+
+                        <div class="ms-3">
+                            <h3 class="text-secondary">Business Analysis</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magni voluptatibus!
+                                Possimus numquam, recusandae explicabo omnis laudantium itaque corrupti expedita.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex align-items-center justify-content-center shadow-lg p-3 my-3">
+
+                        <i class="fa-solid fa-magnifying-glass-chart fa-4x text-secondary"></i>
+                        <div class="ms-3">
+                            <h3 class="text-secondary">Digital Transforming</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, magni voluptatibus!
+                                Possimus numquam, recusandae explicabo omnis laudantium itaque corrupti expedita.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- client section -->
+        <section class="container my-5 py-5">
+            <h1 class="fw-bold text-primary">Client</h1>
+            <p class="text-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto consequatur
+                inventore eius, quidem nihil ipsam recusandae optio adipisci, accusamus repellat sequi rem atque totam
+                omnis nam! Blanditiis nobis vel culpa a! Repellendus perferendis dolor odit ut molestiae earum
+                repudiandae sequi consectetur, sit sapiente, similique veniam autem, est quam ullam.</p>
+            <div class="d-flex justify-content-between flex-wrap">
+                <img class="client-img" src="image/clients/client-2.png" alt="">
+                <img class="client-img" src="image/clients/client-3.png" alt="">
+                <img class="client-img" src="image/clients/client-1.png" alt="">
+                <img class="client-img" src="image/clients/client-4.png" alt="">
+                <img class="client-img" src="image/clients/client-5.png" alt="">
+
+            </div>
+        </section>
+        <!-- call to action -->
+        <section class="bg-primary">
+            <div class="container py-5">
+                <h1 class="fw-bold text-white">Call to Action</h1>
+                <p class="text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto
+                    consequatur inventore eius, quidem nihil ipsam recusandae optio adipisci, accusamus repellat sequi
+                    rem atque totam omnis nam! Blanditiis nobis vel culpa a! Repellendus perferendis dolor odit ut
+                    molestiae earum repudiandae sequi consectetur, sit sapiente, similique veniam autem, est quam ullam.
+                </p>
+                <button class="btn btn-outline-secondary">Call to Action</button>
+            </div>
+        </section>
+        <!-- our team -->
+        <section class="container my-5 py-5">
+            <h1 class="fw-bold text-primary">Our team</h1>
+            <p class="text-primary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia iusto
+                consequatur inventore eius, quidem nihil ipsam recusandae optio adipisci, accusamus repellat sequi
+                rem atque totam omnis nam! Blanditiis nobis vel culpa a! Repellendus perferendis dolor odit ut
+                molestiae earum repudiandae sequi consectetur, sit sapiente, similique veniam autem, est quam ullam.
+            </p>
+            <div class="d-flex flex-wrap justify-content-md-between justify-content-center align-items-center">
+                <div class="card my-3" style="width: 18rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-1.jpg" class="card-img-top w-50 border rounded-circle border-primary"
+                            alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="text-secondary fw-bold">Jami Khan</h3>
+                            <p class="card-text fst-italic ">Cheif Executive Officer</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas cupiditate
+                                quis culpa, aperiam sint.</p>
+                    </div>
+                </div>
+                <div class="card my-3" style="width: 18rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-2.jpg" class="card-img-top w-50 border rounded-circle border-primary"
+                            alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="text-secondary fw-bold">Jami Khan</h3>
+                            <p class="card-text fst-italic ">Cheif Executive Officer</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas cupiditate
+                                quis culpa, aperiam sint.</p>
+                    </div>
+                </div>
+                <div class="card my-3" style="width: 18rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-3.jpg" class="card-img-top w-50 border rounded-circle border-primary"
+                            alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="text-secondary fw-bold">Jami Khan</h3>
+                            <p class="card-text fst-italic ">Cheif Executive Officer</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas cupiditate
+                                quis culpa, aperiam sint.</p>
+                    </div>
+                </div>
+                <div class="card my-3" style="width: 18rem;">
+                    <div class="text-center pt-4">
+                        <img src="image/team-4.jpg" class="card-img-top w-50 border rounded-circle border-primary"
+                            alt="...">
+                    </div>
+                    <div class="card-body text-center">
+                        <h5 class="text-secondary fw-bold">Jami Khan</h3>
+                            <p class="card-text fst-italic ">Cheif Executive Officer</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis quas cupiditate
+                                quis culpa, aperiam sint.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact us -->
+        <section class="container my-5 py-5">
+            <h1 class="fw-bold text-primary">Contact Us</h1>
+            <p class="text-primary">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nesciunt
+                perferendis voluptatum harum explicabo totam?</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="d-flex align-items-center my-3">
+                        <i class="fa-solid fa-phone fa-2x text-secondary"></i>
+                        <div class="ms-3">
+                            <h5 class="text-secondary fw-bold">Phone Number</h5>
+                            <p class="fw-bold text-primary">01700000000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-3">
+                        <i class="fa-solid fa-envelope fa-2x text-secondary"></i>
+                        <div class="ms-3">
+                            <h5 class="text-secondary fw-bold">Email</h5>
+                            <p class="fw-bold text-primary">rjkhan.1221@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center my-3">
+                        <i class="fa-solid fa-location-dot fa-2x text-secondary"></i>
+                        <div class="ms-3">
+                            <h5 class="text-secondary fw-bold">Address</h5>
+                            <p class="fw-bold text-primary">Dhaka, Bangladesh</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <form>
+                        <div class="d-flex mb-3 ">
+
+                            <input type="text" class="form-control p-2 me-3" id="exampleInputname"
+                                aria-describedby="emailHelp" placeholder="Your Name">
+                            <input type="email" class="form-control p-2 " id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Your Email">
+
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Subject">
+                        </div>
+                        <textarea class="form-control mb-3" id="exampleFormControlTextarea1" rows="4"
+                            placeholder="Subject"></textarea>
+                        <button type="submit" class="btn btn-secondary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class=" bg-primary py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h1 class="fw-bold text-white display-4">Reveal</h1>
+                    <p class="text-white">Dhaka, Bangladesh</p>
+                    <p class="text-white">Phone: 01786000000</p>
+                    <p class="text-white">Email: rjkhan.1221@gmail.com</p>
+                </div>
+                <div class="col-md-2 text-white">
+                    <h6 class="fw-blod">Useful Link</h6>
+                    <p><a class="text-decoration-none text-white" href="">Home</a></p>
+                    <p><a class="text-decoration-none text-white" href="">About</a></p>
+                    <p><a class="text-decoration-none text-white" href="">Contact Us</a></p>
+                    <p><a class="text-decoration-none text-white" href="">Login</a></p>
+                </div>
+                <div class="col-md-2">
+                    <h6 class="text-white text-blod">Our Service</h6>
+                    <p><a class="text-decoration-none text-white" href="">It services</a></p>
+                    <p><a class="text-decoration-none text-white" href="">UX/UI Design</a></p>
+                    <p><a class="text-decoration-none text-white" href="">Web Development</a></p>
+                    <p><a class="text-decoration-none text-white" href="">App Development</a></p>
+                </div>
+                <div class="col-md-5">
+                    <h6 class="text-white text-blod ">Join Our Newsletter</h6>
+                    <p class="text-white">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt, blanditiis?</p>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Your Email" aria-label="Recipient's username" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Subscribe</button>
+                      </div>
+                </div>
+            </div>
+            <div class="mt-5">
+                <p class="text-center text-white">&copy;Copyright Reveal. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="/bootstrap.min.js"></script>
+</body>
+
+</html>
